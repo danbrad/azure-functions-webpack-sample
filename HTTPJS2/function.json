@@ -1,6 +1,6 @@
 {
   "disabled": false,
-  "scriptFile":"../build/index.js",
+  "scriptFile":"../build/index2.js",
   "entryPoint":"HTTPJS2",
   "bindings": [
     {
