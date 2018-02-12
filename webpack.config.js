@@ -1,5 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
 module.exports = [{
   entry: './index.js',
   target: 'node',
@@ -13,6 +15,9 @@ module.exports = [{
     __filename: false,
     __dirname: false,
   },
+  plugins: [
+    new UglifyJSPlugin()
+ ]
 },{
   entry: './index2.js',
   target: 'node',
@@ -26,6 +31,9 @@ module.exports = [{
     __filename: false,
     __dirname: false,
   },
+  plugins: [
+    new UglifyJSPlugin()
+ ]
 }
 
 

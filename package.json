@@ -13,6 +13,7 @@
     "ms-rest-azure": "^1.15.4"
   },
   "devDependencies": {
+    "uglifyjs-webpack-plugin": "^1.1.8",
     "webpack": "^2.2.1"
   }
 }
